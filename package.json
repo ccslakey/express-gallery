@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+      "consolidate": "0.10.0",
+      "express": "4.8.1",
+      "handlebars": "2.0.0-beta.1",
+      "superagent": "0.18.2"
+    },
   "keywords": [],
+  "repository": "https://github.com/ccslakey/express-gallery",
   "author": "",
   "license": "ISC"
 }
