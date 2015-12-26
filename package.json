@@ -1,0 +1,12 @@
+{
+  "name": "instagram-gallery",
+  "version": "1.0.0",
+  "description": "first project from Pro Express.js: an instagram gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
