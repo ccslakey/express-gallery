@@ -1,0 +1,28 @@
+<!DOCTYPE html lang="en">
+<html>
+
+<head>
+    <title>Storify Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/flatly-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <div class="row">
+        <h1>{{title}} <small>by {{author.name}}</small></h1>
+        <p>{{description}}</p>
+    </div>
+    <div class="row">
+        <ul class="thumbnails">
+            {{#each elements}}
+            <li class="span3">
+                <a class="thumbnail" href="{{permalink}}" target="_blank">
+                    <img src="{{data.image.src}}" title="{{data.image.caption}}" />
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</body>
+
+</html>
